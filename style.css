@@ -1,8 +1,104 @@
+.Titre{
+	background-color: pink;
+	
+}
+
+.Titre1{
+	text-align: center;
+	background-color: purple;
+	font-size: 48px;
+	color : lime;
+	
+
+}
+
+.Titre2{
+	text-align: center;
+	background-color: blue;
+	font-size: 28px;
+	color : yellow;	
+}
+
+.rezo{
+	margin-bottom: 0px;
+	margin: 0 auto;
+	display : flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
 header {
+	width :;
 	background-color: yellow;
 	height: 40px;
 }
 
 .icone {
+	margin-bottom: 0px;
+	background-color: white;
+	width:50px; 
+	height:50px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 50px;
 	display: inline;
+}
+
+
+
+.list-inline{
+	padding-top : 10px;
+	display : flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.Terre{
+	display: flex;
+	
+	width : auto;
+height: 250px;
+}
+
+
+.globe{
+	/*background-image : url("img/globe.svg")*/
+	/*width: 50px;
+	height:50px;*/
+	background-color: grey;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin : 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.globe img{
+	/*z-index: 1;*/
+}
+
+
+
+.prez{
+	background-color: orange;
+	margin-top : 0 auto;
+	padding-top : 10px;
+	display : flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+footer p{
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color : lime;
+	display: flex;
+	flex-direction: row;
 }
