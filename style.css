@@ -1,8 +1,30 @@
-header {
-	background-color: yellow;
-	height: 40px;
+body {
+	font-family: sans-serif;
+	padding-top: 75px;
 }
 
-.icone {
-	display: inline;
+@media screen and (max-width: 768px) {
+	body {
+		padding-top: 275px;
+	}
+}
+
+.intro {
+	text-align: center;
+}
+
+h1 {
+	font-size: 7em;
+}
+
+.glyphicon {
+	font-size: 1.5em;
+}
+
+img {
+	margin: auto;
+}
+
+.panel {
+	width: 50%;
 }

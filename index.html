@@ -3,68 +3,100 @@
 <head>
 	<title>Find Your Dream!</title>
 	<meta charset="utf-8" author="Antoine, Patrice, Stephan, Rebecca, Lise">
-	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
+
+<header class="container">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">Find Your Dreams!</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li class="text-uppercase active"><a href="#home">accueil</a></li>
+			<li class="text-uppercase"><a href="#hot">chaleur</a></li>
+			<li class="text-uppercase"><a href="#cold">fraîcheur</a></li>
+			<li class="text-uppercase"><a href="#theme">thème</a></li>
+			<li class="text-uppercase"><a href="#contact">contact</a></li>
+		</ul>
+	</nav>
+</header>
+
 <div class="container">
-	<header>
-		<nav>
-			<ul class="list-inline">
-				<li>HOME</li>
-				<li>CHALEUR</li>
-				<li>FRAICHEUR</li>
-				<li>THÈME</li>
-				<li>CONTACT</li>
-			</ul>
-		</nav>
-	</header>
-	
-	<section>
-		<div>
-			<h1>Find Your Dreams!</h1>
-			<h2>À chacun son évasion…</h2>
-		</div>
-		<div>
-			<!--<img href="#facebook"/>--><p class="icone">FB</p>
-			<!--<img href="#twitter"/>--><p class="icone">TW</p>
-			<!--<img href="#instagram"/>--><p class="icone">IN</p>
-			<!--<img href="#picasa"/>--><p class="icone">PI</p>
-			<!--<img href="#linkedin"/>--><p class="icone">LK</p>
+
+	<section class="text-center">
+		<h1>
+			Find Your Dreams!<br /><small>à chacun son évasion…</small>
+		</h1>
+		<div class="well">
+			<div class="btn-group">
+				<button href="#facebook" type="button" class="btn btn-default btn-lg">
+					<span class="glyphicon glyphicon-plus-sign"></span>
+				</button>
+				<button href="#twitter" type="button" class="btn btn-default btn-lg">
+					<span class="glyphicon glyphicon-remove-sign"></span>
+				</button>
+				<button href="#instagram" type="button" class="btn btn-default btn-lg">
+					<span class="glyphicon glyphicon-ok-sign"></span>
+				</button>
+				<button href="#picasa" type="button" class="btn btn-default btn-lg">
+					<span class="glyphicon glyphicon-question-sign"></span>
+				</button>
+				<button href="#picasa" type="button" class="btn btn-default btn-lg">
+					<span class="glyphicon glyphicon-info-sign"></span>
+				</button>
+			</div>
 		</div>
 	</section>
 	
 	<section>
-				<img src="img/globe.svg">
+		<img class="img-responsive" src="img/globe.svg">
 	</section>
 
-	<section>
-			<h3>Qui sommes nous ?</h3>
-			<img /><p>
-				Gertrude, 30 ans, fan de voyages et de cuisine végétarienne, j’ai l’envie de partager mes expériences et mes bonnes adresses.
-			</p>
-			<img /><p>				
-				Cindy, 25 ans, passionnée de musique, après 13 ans de conservatoire j’ai décidé de découvrir la musique à travers le monde et vous propose mes plus belles rencontres.
-			</p>
-			<img /><p>
-				Thérèse, 75 ans, retraitée active, très impliquée dans le milieu associatif, j’apporte mon aide partout où elle est la bienvenue et vous donne mes contacts, si vous aussi souhaitez contribuer.
-			</p>
-			<img /><p>
-				Esteban, 42 ans, je vis à Madrid, j’aime les grandes villes, les endroits bruyants, aller dans un bar à 2h du matin rencontrer de nouvelles personnes. Venez faire la fête !
-			</p>
-			<img /><p>
-				Torglund, 23 ans, né à Stockholm, fondu de glisse, du snowboard au surf en passant par la planche à voile, je vous propose des parcours sportifs à vous couper le souffle.
-			</p>
+	<section class="container">
+		<h2>Qui sommes nous ?</h2>
+		<dl>
+			<dt>Gertrude, 30 ans</dt>
+			<dd>fan de voyages et de cuisine végétarienne, j’ai l’envie de partager mes expériences et mes bonnes adresses.</dd>
+			<dt>Cindy, 25 ans</dt>
+			<dd>passionnée de musique, après 13 ans de conservatoire j’ai décidé de découvrir la musique à travers le monde et vous propose mes plus belles rencontres.</dd>
+			<dt>Thérèse, 75 ans</dt>
+			<dd>retraitée active, très impliquée dans le milieu associatif, j’apporte mon aide partout où elle est la bienvenue et vous donne mes contacts, si vous aussi souhaitez contribuer.</dd>
+			<dt>Esteban, 42 ans</dt>
+			<dd>je vis à Madrid, j’aime les grandes villes, les endroits bruyants, aller dans un bar à 2h du matin rencontrer de nouvelles personnes. Venez faire la fête !</dd>
+			<dt>Torglund, 23 ans</dt>
+			<dd>né à Stockholm, fondu de glisse, du snowboard au surf en passant par la planche à voile, je vous propose des parcours sportifs à vous couper le souffle.</dd>
+		</dl>
 	</section>
 	
-	<footer>
-		<p>
-			Stéphane PATRICE<br>
-			Allée Lise ANTOINE<br>
-			35 250 REBECCA
-		</p>
+	<footer class="container">
+		<div class="row">
+			<p class="col-sm-4">
+				mentions légales
+			</p>
+			<p class="col-sm-4">
+				vie privée
+			</p>
+			<p class="col-sm-4">
+				plan du site
+			</p>
+		</div>
+		<div class="row">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					contact
+				</div>
+				<div class="panel-body">
+				Stéphane PATRICE<br />
+				Allée Lise ANTOINE<br />
+				35 250 REBECCA
+				</div>
+			</div>
+		</div>
 	</footer>
-
 </div>
 </body>
 </html>
