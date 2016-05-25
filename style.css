@@ -1,16 +1,33 @@
+.row{
+	margin-left : -15px;
+	margin-right: -15px;
+display: flex;
+justify-content: space-around; 
+}
+
+
+
+
+body {
+  padding-top: 10px;
+}
+[class*="col-"], footer {
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+
+}
+
+
+
+
 .Titre{
 	background-color: pink;
 	
 }
 
-.Titre1{
-	text-align: center;
-	background-color: purple;
-	font-size: 48px;
-	color : lime;
-	
-
-}
 
 .Titre2{
 	text-align: center;
@@ -30,21 +47,22 @@
 
 header {
 	width :;
+	height: 100px;
 	background-color: yellow;
 	height: 40px;
 }
 
 .icone {
 	margin-bottom: 0px;
-	background-color: white;
+	background-color: rgb(250,100,250);
 	width:50px; 
 	height:50px;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 0px;
-	border-style: solid;
-	border-color: grey;
-	border-radius: 50px;
+	border-style: groove;
+	border-color: lime;
+	border-radius: 20px;
 	display: inline;
 }
 
@@ -58,19 +76,14 @@ header {
 
 }
 
-.Terre{
+/*.Terre{
 	display: flex;
-	
-	width : auto;
-height: 250px;
+height: 50px;
 }
-
+*/
 
 .globe{
-	/*background-image : url("img/globe.svg")*/
-	/*width: 50px;
-	height:50px;*/
-	background-color: grey;
+		background-color: grey;
 	padding-top: 0px;
 	margin-top: 0px;
 	margin : 0 auto;
@@ -79,11 +92,11 @@ height: 250px;
 	justify-content: center;
 	
 }
-
+/*
 .globe img{
-	/*z-index: 1;*/
+	z-index: 1;
 }
-
+*/
 
 
 .prez{
