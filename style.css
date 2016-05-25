@@ -81,7 +81,7 @@ footer {
 	animation-name: rotate;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-	animation-duration: 20s;
+	animation-duration: 25s;
 }
 
 @keyframes rotate{
@@ -96,4 +96,13 @@ footer {
 .well {
 	background-color: rgba(245,245,245,0.3);
 	border-color: rgba(227,227,227,0.3);
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.whois {
+	margin-top: 30px;
 }
