@@ -92,3 +92,8 @@ footer {
 	position: absolute;
 	top: 0;
 }
+
+.well {
+	background-color: rgba(245,245,245,0.3);
+	border-color: rgba(227,227,227,0.3);
+}
