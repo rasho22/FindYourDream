@@ -8,12 +8,12 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
+<body id="home">
 
 <header class="container">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#">Find Your Dreams!</a>
+			<a class="navbar-brand" href="#home">Find Your Dreams!</a>
 		</div>
 		<ul class="nav navbar-nav">
 			<li class="text-uppercase active"><a href="#home">accueil</a></li>
@@ -45,16 +45,14 @@
 				<button href="#picasa" type="button" class="btn btn-default btn-lg">
 					<span class="glyphicon glyphicon-question-sign"></span>
 				</button>
-				<button href="#picasa" type="button" class="btn btn-default btn-lg">
+				<button href="#linkedin" type="button" class="btn btn-default btn-lg">
 					<span class="glyphicon glyphicon-info-sign"></span>
 				</button>
 			</div>
 		</div>
 	</section>
-	
-	<section>
-		<img class="img-responsive" src="img/globe.svg">
-	</section>
+
+	<img class="img-responsive" src="img/globe.svg">
 
 	<section class="container">
 		<h2>Qui sommes nous ?</h2>
@@ -74,18 +72,7 @@
 	
 	<footer class="container">
 		<div class="row">
-			<p class="col-sm-4">
-				mentions légales
-			</p>
-			<p class="col-sm-4">
-				vie privée
-			</p>
-			<p class="col-sm-4">
-				plan du site
-			</p>
-		</div>
-		<div class="row">
-			<div class="panel panel-default">
+			<div id="contact" class="col-sm-3 panel panel-default">
 				<div class="panel-heading">
 					contact
 				</div>
@@ -95,8 +82,19 @@
 				35 250 REBECCA
 				</div>
 			</div>
+			<p class="col-sm-3">
+				<button href="#legal" type="button" class="btn btn-default">mentions légales</button>
+			</p>
+			<p class="col-sm-3">
+				<button href="#prive" type="button" class="btn btn-default">vie privée</button>
+			</p>
+			<p class="col-sm-3">
+				<button href="#plan" type="button" class="btn btn-default">plan du site</button>
+			</p>
 		</div>
 	</footer>
+
 </div>
+
 </body>
 </html>

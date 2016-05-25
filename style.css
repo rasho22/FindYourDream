@@ -1,12 +1,18 @@
 body {
 	font-family: sans-serif;
 	padding-top: 75px;
+	background-color: #FFC800;
+	color: #005667;
 }
 
 @media screen and (max-width: 768px) {
 	body {
 		padding-top: 275px;
 	}
+}
+
+.navbar {
+	opacity: 0.9;
 }
 
 .intro {
@@ -17,6 +23,12 @@ h1 {
 	font-size: 7em;
 }
 
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 3.5em;
+	}
+}
+
 .glyphicon {
 	font-size: 1.5em;
 }
@@ -25,6 +37,10 @@ img {
 	margin: auto;
 }
 
-.panel {
-	width: 50%;
+dd {
+	margin-bottom: 10px;
+}
+
+.panel-body {
+	color: #000000;
 }
