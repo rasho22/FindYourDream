@@ -28,10 +28,6 @@ body {
 	}
 }
 
-.intro {
-	text-align: center;
-}
-
 h1 {
 	font-size: 7em;
 }
@@ -56,10 +52,6 @@ dd {
 
 .panel-body {
 	color: #000000;
-}
-
-footer {
-	text-align: center;
 }
 
 .globe {
