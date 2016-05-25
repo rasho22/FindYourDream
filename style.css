@@ -54,3 +54,11 @@ dd {
 footer {
 	text-align: center;
 }
+
+.globe {
+	position: relative;
+}
+
+.globe img:first-child {
+	position: absolute;
+}
