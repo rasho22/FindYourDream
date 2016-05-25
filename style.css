@@ -73,6 +73,10 @@ footer {
 	}
 }
 
+.globe img {
+	border-radius: 25%;
+}
+
 .globe img:first-child {
 	animation-name: rotate;
 	animation-iteration-count: infinite;
