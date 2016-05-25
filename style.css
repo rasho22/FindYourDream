@@ -61,4 +61,12 @@ footer {
 
 .globe img:first-child {
 	position: absolute;
+	animation-name: rotate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 20s;
+}
+
+@keyframes rotate{
+	from {transform:rotate(0deg);} to {transform:rotate(360deg);}
 }
